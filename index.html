@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+     <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Document</title>
+ <link rel="stylesheet" href="n.css">
+ <title>salaire</title>
+</head>
+<body>
+    <div class="nav"><h2>logiciel de calcul de salaire</h2></div>
+
+
+<div class="cr">
+    <div class="liste">
+        <p><h2><u>logiciel de calcul de salaire</u><br>
+            <br>
+            
+        -pour les 39 premièers heures il n'y a pas de majoration
+        <br>
+        <br>
+        - de la 40 à la 44e heure il ya 50% de bonus
+        <br>
+        <br>
+        -de la 45 à la 49e heure il ya 75% de bonus
+        <br>
+        <br>
+        -de la 50e heure et plus il ya 100% de bonus 
+        </h2></p></div>
+        <div class="block"
+        width="40px"
+        heigth="900px">
+       
+        
+        <label for="A"><h3>les heures de travail</h3> </label>
+       <input class="A"       type="number" id="hours"></input> <br>
+       
+       <label for="B"><h3>prix unitaire </h3> </label>
+       <input class="B"     type="number" id="rate"></input>
+       <br>
+       <button onclick="salaire()"> calculer </button>
+       <br>
+       <label for="result"><h3>montant final</h3> </label>
+       <input class="result"    type="text" id="result"></input>
+     <script src="entreprise.js"></script>
+
+       </div>
+    </div>
+</body>
+
+</html>

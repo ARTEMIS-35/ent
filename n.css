@@ -1,0 +1,61 @@
+.nav{background-color: rgb(255, 255, 255);
+    padding: 6px;
+    display: flex;
+   ;}
+
+.liste{background-color: rgb(255, 255, 255); 
+       width:400px;
+       height: 430px;;
+       display: flex;
+       margin-left:    30px;
+       margin-top: 60px;
+       border-radius: 10px;}
+
+.liste h2{font-size: 22px;}
+
+
+.block{display:flex;
+       flex-direction: column;
+       background-color: blueviolet;
+       width: 400px;
+       height: 500px;
+       align-content:center;
+       margin-left:50px;
+       margin-top:60px;
+       box-shadow: 14px;
+       border-radius: 30px;
+       box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);}
+
+.block input{margin-left: 120px;
+             height:130px;
+             width: 130px;
+             margin-bottom: 80px;
+             background-color:white;
+}
+.block h3{ margin-left: 115px;
+           margin-bottom: 0px;}
+
+ button{background-color: white;
+        margin-left: 160px;
+        margin-bottom: 10px;
+        width: 60px;}
+button:hover{background-color: blueviolet;}
+
+body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/background-xam-tron-820x513.jpg);
+     background-size: cover;
+     height:1OOvh ;
+  }
+.cr{display: flex;
+           justify-content: center;
+}
+
+
+@media (max-width:984px) {
+
+  .cr{flex-direction: column;
+             align-items: center;
+             margin-top: 40px;}
+             .liste{margin-left: 50px;}
+             .nav{width: 382px;}
+      
+}
