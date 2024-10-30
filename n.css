@@ -94,8 +94,8 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                       .nav{width: 518px;}}
 
 
-                      @media (max-width:437px) {
-                            @media (max-width:414px) {
+                      @media (max-width:437px) 
+                            {
                                    .cr{flex-direction: column;
                                        align-items: center;
                                        margin-top: 40px;}
@@ -105,9 +105,9 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                                 .block{margin-left:-07px;
                                        margin-right:auto;
                                    width: 430px;}
-                                 .nav{width: 390px ;
+                                 .nav{width: 415px ;
                             margin-left: -5px;
-                     width: 410px;}  }
+         }
                               
                           }
                        
