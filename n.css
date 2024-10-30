@@ -31,7 +31,8 @@
              width: 130px;
              margin-bottom: 80px;
              background-color:white;
-             padding: 10px;
+             padding: 8px;
+             font-size: 17px;
 }
 .block h3{ margin-left: 115px;
            margin-bottom: 0px;}
@@ -47,16 +48,58 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
      height:1OOvh ;
   }
 .cr{display: flex;
-           justify-content: center;
-}
+    justify-content: center;}
 
 
 @media (max-width:984px) {
+                          .cr{flex-direction: column;
+                              align-items: center;
+                              margin-top: 40px;}
+                       .liste{margin-left:auto;
+                              margin-right: auto;}
+                       .block{margin-left:auto;
+                              margin-right: auto;}
+                         .nav{width: 948px;}}
+ 
+@media (max-width:684px) {
+                     .cr{flex-direction: column;
+                         align-items: center;
+                         margin-top: 40px;}
+                  .liste{margin-left:auto;
+                         margin-right: auto;}
+                  .block{margin-left:auto;
+                         margin-right: auto;}
+                    .nav{width: 628px;}}
 
-  .cr{flex-direction: column;
-             align-items: center;
-             margin-top: 40px;}
-             .liste{margin-left: 50px;}
-             .nav{width: 382px;}
-      
-}
+@media (max-width:534px) {
+                          .cr{flex-direction: column;
+                              align-items: center;
+                              margin-top: 40px;}
+                       .liste{margin-left:auto;
+                              margin-right: auto;}
+                       .block{margin-left:auto;
+                              margin-right: auto;}
+                     
+                      .nav{width: 518px;}}
+
+
+                      @media (max-width:437px) {
+                            .cr{flex-direction: column;
+                                align-items: center;
+                                margin-top: 40px;}
+                         .liste{margin-left:auto;
+                                margin-right: auto;}
+                         .block{margin-left:auto;
+                                margin-right: auto;}
+                          .nav{width:405px ;}  }
+                       
+                          @media (max-width:414px) {
+                            .cr{flex-direction: column;
+                                align-items: center;
+                                margin-top: 40px;}
+                         .liste{margin-left:-02px;
+                                margin-right:auto;}
+                         .block{margin-left:-02px;
+                                margin-right:auto;}
+                          .nav{width: 390px ;}  }
+                       
