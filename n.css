@@ -139,13 +139,11 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                          align-items: center;
                          margin-top: 40px;
                     }
-                  .liste{margin-left:-5px;
+                  .liste{margin-left:3px;
                          margin-right:auto;
-                         width: 420px;}
-                  .block{margin-left:-05px;
+                         width: 410px;}
+                  .block{margin-left:3px;
                          margin-right:auto;
-                     width: 420px;}
-                   .nav{width: 419px ;
-              margin-left: -5px;
-       width: 410px;}  }
+                     width: 410px;}
+                   .nav{width: 419px ;} }
                 
