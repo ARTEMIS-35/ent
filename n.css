@@ -85,7 +85,7 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
 
 
 
-@media (max-width:534px) {
+@media (max-width:540px) {
                           .cr{flex-direction: column;
                               align-items: center;
                               margin-top: 40px;}
@@ -104,12 +104,12 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                                        margin-top: 40px;
                                    padding-left: auto;
                             padding-right: auto;}
-                                .liste{margin-left:-12px;
+                                .liste{margin-left:-4px;
                                        margin-right:auto;
-                                       width: 430px;}
-                                .block{margin-left:-12px;
+                                       width: 420px;}
+                                .block{margin-left:-4px;
                                        margin-right:auto;
-                                   width: 430px;}
+                                   width: 420px;}
                                  .nav{width: 415px ;
                             margin-left: -5px;
          }
@@ -120,13 +120,13 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                             .cr{flex-direction: column;
                                 align-items: center;
                                 margin-top: 40px;
-                            padding: 10px;}
+                           }
                          .liste{margin-left:-7px;
                                 margin-right:auto;
-                                width: 430px;}
+                                width: 420px;}
                          .block{margin-left:-07px;
                                 margin-right:auto;
-                            width: 430px;}
+                            width: 420px;}
                           .nav{width: 419px ;
                      margin-left: -5px;
               width: 410px;}  }
