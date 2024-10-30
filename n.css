@@ -130,4 +130,22 @@ body{background-image: url(https://toigingiuvedep.vn/wp-content/uploads/2021/11/
                           .nav{width: 419px ;
                      margin-left: -5px;
               width: 410px;}  }
+
+
+
                        
+              @media (max-width:375px) {
+                     .cr{flex-direction: column;
+                         align-items: center;
+                         margin-top: 40px;
+                    }
+                  .liste{margin-left:-5px;
+                         margin-right:auto;
+                         width: 420px;}
+                  .block{margin-left:-05px;
+                         margin-right:auto;
+                     width: 420px;}
+                   .nav{width: 419px ;
+              margin-left: -5px;
+       width: 410px;}  }
+                
